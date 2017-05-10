@@ -44,7 +44,7 @@ create sequence historico_seq;
 
 create table items (
   id                            bigint not null,
-  descripcion                   varchar(255),
+  descripcion                   varchar(MAX),
   score                         float,
   porcentaje                    float,
   score_real                    float,
