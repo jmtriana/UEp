@@ -34,6 +34,7 @@ public class Historico extends Model {
 
     public Date fechareg;
 
+    @Lob
     public String causa;
 
     public Historico (String SitioI, String ResponsableI, String lineaI, double scoreoI, String codigoI, String porcI, String ifsI, int fallidos, int total, Date fecharegI , String causaI){

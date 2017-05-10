@@ -13,6 +13,7 @@ public class Item extends Model{
     @GeneratedValue(strategy= GenerationType.SEQUENCE)
     public long id;
 
+    @Lob
     @Constraints.Required
     public String descripcion;
 
